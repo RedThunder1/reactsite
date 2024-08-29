@@ -81,6 +81,46 @@ button {
 .contactIcons {
 
 }
+
+.ContactMenu {
+  background-color: #1d1f23;
+  position: fixed;
+  text-align: center;
+  width: 35vw;
+  height: 70vh;
+  left: 30vw;
+  top: 0;
+  border-radius: 0 0 10px 10px;
+}
+
+.ContactMenu form {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.ContactMenu form input {
+  background-color: rgba(67, 87, 113, 0.12);
+  color: white;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+.ContactMenu form textarea {
+  background-color: rgba(67, 87, 113, 0.12);
+  color: white;
+  resize: none;
+  height: 45vh;
+  margin: 20px 0 20px 0;
+}
+
+.ContactMenu button {
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  font-size: 20px;
+}
+
 .contactIcons img {
   width: 10vh;
   padding: 10px;

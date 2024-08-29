@@ -13,7 +13,6 @@ import linkedin from '../Graphics/linkedin-logo.png';
 
 export default function About() {
 
-
     return (
         <div className="About">
 

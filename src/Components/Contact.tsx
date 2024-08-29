@@ -1,13 +1,12 @@
-import react from 'react';
+import React from 'react';
+import '../App.css'
 
 export default function Contact() {
 
 
     return (
-      <div className="Contact">
+        <div className="Contact">
 
-
-
-      </div>
+        </div>
     );
 }
