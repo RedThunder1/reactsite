@@ -66,6 +66,37 @@ button {
   text-align: center;
   height: 80vh;
   width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.About img {
+  width: 50%;
+}
+
+.contactInfo {
+  list-style: none;
+}
+.contactIcons {
+
+}
+.contactIcons img {
+  width: 10vh;
+  padding: 10px;
+  -webkit-filter:invert(100%);
+
+}
+
+.summary {
+  background-color: #242730;
+  width: 30%;
+  height: 100%;
+}
+
+.extra {
+  width: 70%;
+  height: 100%;
 }
 
 .homeButton {

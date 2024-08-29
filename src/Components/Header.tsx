@@ -1,6 +1,6 @@
 import React from "react";
 // @ts-ignore
-import logo from '../SpartanLogo.png'
+import logo from '../Graphics/SpartanLogo.png'
 import '../App.css';
 
 export default function Header() {
