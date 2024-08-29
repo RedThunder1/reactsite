@@ -3,12 +3,13 @@
 }
 
 body {
+  background: linear-gradient(24deg, rgba(40,44,52,1) 0%, rgb(41, 49, 64) 100%);
   font-family: "Arial Black", serif;
   color: #a9b1c1;
 }
 
 .App {
-  height: 100vh;
+  height: 80vh;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -23,7 +24,7 @@ body {
 .header {
   background-color: #21242b;
   width: 100%;
-  height: 10%;
+  height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -54,10 +55,37 @@ button {
 }
 
 .main {
+  height: 80vh;
   width: 100%;
-  height: 80%;
-  background: linear-gradient(24deg, rgba(40,44,52,1) 0%, rgb(41, 49, 64) 100%);
   align-content: center;
+  text-align: center;
+}
+
+.About {
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+  width: 100vw;
+}
+
+.homeButton {
+  position: relative;
+  left: 45%;
+  top: 5%;
+  background-color: #dd3636;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.homeButton:hover {
+  translate: 5px -2px;
+  box-shadow: rgba(0, 0, 0, 0.54) -2px 5px 1px;
+  background: linear-gradient(24deg, rgba(255,0,0,1) 0%, rgba(217,89,89,1) 81%);
 }
 
 .name {
@@ -67,17 +95,18 @@ button {
   font-size: 35px;
 }
 
-.name button {
+.aboutButton {
   background-color: #dd3636;
   border: none;
   padding: 20px 40px 20px 40px;
   border-radius: 10px;
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
+  text-decoration: none;
 }
 
-.name button:hover {
+.aboutButton:hover {
   translate: 5px -2px;
   box-shadow: rgba(0, 0, 0, 0.54) -2px 5px 1px;
   background: linear-gradient(24deg, rgba(255,0,0,1) 0%, rgba(217,89,89,1) 81%);
@@ -85,7 +114,10 @@ button {
 }
 
 .footer {
+  text-align: center;
   background-color: #21242b;
   width: 100%;
-  height: 10%;
+  height: 10vh;
+  position: absolute;
+  bottom: 0;
 }
