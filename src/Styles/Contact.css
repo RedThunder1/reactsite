@@ -1,0 +1,51 @@
+.ContactMenu {
+    z-index: 200;
+    background-color: #1d1f23;
+    position: fixed;
+    text-align: center;
+    width: 35vw;
+    height: 70vh;
+    left: 33vw;
+    bottom: 100vh;
+    transition: 2s ease-in-out;
+    translate: 0 70vh;
+    border-radius: 0 0 10px 10px;
+}
+.ContactMenu form {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    bottom: 20px;
+    justify-content: space-between;
+}
+.ContactMenu form input {
+    background-color: rgba(67, 87, 113, 0.12);
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 10px;
+}
+.ContactMenu form input:focus {
+    outline: none;
+    background-color: rgba(142, 143, 143, 0.12);
+}
+.ContactMenu form textarea {
+    background-color: rgba(67, 87, 113, 0.12);
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    resize: none;
+    height: 35vh;
+    margin: 20px 0 20px 0;
+}
+.ContactMenu form textarea:focus {
+    outline: none;
+    background-color: rgba(142, 143, 143, 0.12);
+}
+
+.ContactMenu button {
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    font-size: 20px;
+}

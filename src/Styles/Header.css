@@ -1,0 +1,36 @@
+.navbar_top button {
+    background-color: transparent;
+    border: none;
+    color: #a8b0bf;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+.navbar_top button:hover {
+    color: #737880;
+}
+
+.logo {
+    height: 6vmin;
+    position: relative;
+    left: 18%;
+}
+
+.header {
+    position: relative;
+    z-index: 99;
+    background-color: #21242b;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.navbar_top {
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    right: 20%;
+}

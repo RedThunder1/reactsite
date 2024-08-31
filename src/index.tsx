@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-import './index.css';
+import './Styles/index.css';
 import App from './App';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -15,7 +15,6 @@ root.render(
           <Header/>
           <Footer/>
           <App/>
-
       </BrowserRouter>
   </React.StrictMode>
 );

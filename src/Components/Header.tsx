@@ -1,7 +1,9 @@
 import React from "react";
 // @ts-ignore
 import logo from '../Graphics/SpartanLogo.png'
-import '../App.css';
+import openContact from './Contact'
+import '../Styles/Header.css';
+import  "../Styles/Contact.css";
 
 export default function Header() {
 
@@ -9,6 +11,10 @@ export default function Header() {
 
     function openContact() {
         setOpen(!open);
+    }
+
+    function SendEmail() {
+
     }
 
     return (
@@ -19,7 +25,8 @@ export default function Header() {
                 <button type="button" onClick={openContact}>Contact</button>
                 {open ? (
                     <div className="ContactMenu">
-                        <form action="send_email">
+                        <h1>Send me an Email!</h1>
+                        <form id="email-form" action="/SendEmail">
                             <input type="text" name="name" placeholder="Name"/><br/>
                             <input type="email" name="email_address" placeholder="Email"/><br/>
                             <br/><textarea name="message" placeholder="Message"/><br/>

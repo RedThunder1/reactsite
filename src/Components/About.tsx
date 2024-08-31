@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../Styles/About.css';
 import {Link} from "react-router-dom";
 
 // @ts-ignore
@@ -17,20 +17,30 @@ export default function About() {
         <div className="About">
 
             <div className="summary">
-                <img src={logo} alt="logo"/>
-                <h2>James Haver</h2>
-                <p>Computer science student studying at UNO </p>
-                <h2>Contact Information</h2>
-                <div className="contactIcons">
-                    <a href="mailto:jameshaver04@gmail.com"><img src={email} alt="email icon"/></a>
-                    <a href="https://github.com/RedThunder1"><img src={github} alt="github icon"/></a>
-                    <a href="https://www.linkedin.com/in/james-haver/"><img src={linkedin} alt="linkedin logo"/></a>
+                <div className="subSummary">
+                    <img src={logo} alt="logo"/>
+                    <h2>James Haver</h2>
+                    <p>Computer science student studying at UNO </p>
+                    <h2>Contact Information</h2>
+                    <div className="contactIcons">
+                        <a href="mailto:jameshaver04@gmail.com"><img src={email} alt="email icon"/></a>
+                        <a href="https://github.com/RedThunder1"><img src={github} alt="github icon"/></a>
+                        <a href="https://www.linkedin.com/in/james-haver/"><img src={linkedin} alt="linkedin logo"/></a>
+                    </div>
+                    <p>402-637-3739</p>
                 </div>
-                <p>402-637-3739</p>
             </div>
             <div className="extra">
                 <Link to="/" className="homeButton">Back</Link>
-                <p>Extra</p>
+                <div className="languages">
+
+                </div>
+                <div className="software">
+
+                </div>
+                <div className="librarys">
+
+                </div>
             </div>
         </div>
     );
